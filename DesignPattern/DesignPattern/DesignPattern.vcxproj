@@ -75,13 +75,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Adapt.cpp" />
     <ClCompile Include="command.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Singleton.cpp" />
     <ClCompile Include="StateMode.cpp" />
     <ClCompile Include="Strategy.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Adapt.h" />
     <ClInclude Include="command.h" />
+    <ClInclude Include="Singleton.h" />
     <ClInclude Include="StateMode.h" />
     <ClInclude Include="Strategy.h" />
   </ItemGroup>
